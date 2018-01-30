@@ -1,0 +1,87 @@
+body {
+  background-color: #e0f6fc;
+  text-align: left; }
+
+#content {
+  background-color: #383838;
+  color: #ffffff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px; }
+
+p {
+  line-height: 18px; }
+
+h1, h2 {
+  color: #f9cd1a; }
+
+h1 {
+  text-align: center; }
+
+img {
+  border: 2px solid;
+  border-color: #f9cd1a;
+  margin: 20px;
+  padding: 3px; }
+
+.img-left {
+  float: left;
+  margin: 0 20px 10px 0; }
+
+.img-right {
+  float: right;
+  margin: 10px 0 4px 15px; }
+
+.brief {
+  background-color: #fef07b;
+  color: #000000;
+  float: none;
+  width: 930px;
+  height: 20px;
+  margin: 0 0 35px 0;
+  padding: 15px; }
+
+a {
+  color: #f9cd1a; }
+
+table {
+  width: 95%;
+  background-color: #667d09; }
+  table caption {
+    text-align: right; }
+  table th {
+    background-color: #94a34e;
+    color: #000000;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-left: 10px; }
+  table td {
+    padding: 4px;
+    padding-left: 12px; }
+  table tr td {
+    border-bottom: 1px solid;
+    border-color: #DCDCDC; }
+
+form {
+  color: #f9cd1a; }
+  form .col, form .col1 {
+    width: 49%;
+    display: inline-block; }
+  form .col {
+    float: left; }
+  form .col1 {
+    float: right; }
+  form input, form textarea {
+    width: 100%; }
+  form .submit {
+    width: 250px;
+    height: 40px;
+    border: 1px solid;
+    border-color: #f9cd1a;
+    padding: 3px;
+    margin: 20px 20px 20px 0;
+    color: #f9cd1a;
+    background-color: inherit; }
+  form input {
+    color: #808080; }

@@ -1,0 +1,102 @@
+body{
+	background-color: $background-color;
+	text-align: left;
+}
+#content {
+	background-color: $content-background-color;
+	color: $text-color;
+	width:960px;
+	margin:0 auto;
+	padding: 20px;
+}
+p {
+	line-height:$text-line-height;
+}
+h1, h2 {
+	color:$h-color;
+}
+h1 {
+	text-align:center;
+	
+}
+ 
+ img {
+	border: 2px solid ;
+	border-color: $img-border-color;
+	margin: 20px;
+	padding: 3px;
+}
+.img-left {
+	float:left;
+	margin:0 20px 10px 0;
+}
+.img-right {
+	float:right;
+	margin:$img-right-margin;
+}
+.brief {
+	background-color: $brief-background-color;
+	color: $brief-text-color;
+	float:$brief-float;
+	width:$brief-width;
+	height:$brief-height;
+	margin:$brief-margin;
+	padding:$brief-padding;
+}
+a {
+	color:$link-color;
+}
+ 
+table {
+	width:95%;
+	background-color: $table-background-color;
+	caption {
+	  text-align: right;
+ }
+  th {
+	  background-color: $th-background-color;
+	  color: $th-text-color;
+	  height:30px;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	  padding-left:10px;
+ }
+  td {
+	  padding: 4px;
+	  padding-left:12px;
+ }
+tr td {
+    border-bottom: 1px solid;
+    border-color:  $tr-bottom-color;
+}
+}
+
+form {
+	color: $form-color;
+  .col, .col1 {
+  	width:49%;
+  	display: inline-block;
+ }
+  .col {
+	  float:left;
+ }
+  .col1 {
+	  float:right;
+ }
+  input, textarea {
+    width: 100%;
+ }
+  .submit {
+	  width: 250px;
+	  height: 40px;
+	  border: 1px solid;
+	  border-color: $submit-border-color;
+	  padding: 3px;
+	  margin: 20px 20px 20px 0;
+	  color:$submit-text-color;
+	  background-color: $submit-background-color;
+ }
+  input {
+	  color: $input-color;
+ }
+}
