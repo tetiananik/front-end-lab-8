@@ -28,28 +28,6 @@ var movies = [
 	"rating": 4.0,
 	"bookmark": [{time: 65876586}]
 }];
-function forEach(arr, func) {
-	for (var i = 0; i < arr.length; i++) {
-		func(arr[i]);
-	}
-}
-function getTransformedArray(arr, func) {
-	var result = [];
-	forEach(arr, function(el){
-		result.push(func(el));
-	})
-	return result;
-}
-function getFilteredArray(arr, func) {
-	var result = [];
-	forEach(arr, function(el){
-		if (func(el)) {
-			result.push(el);
-		}
-	})
-	return result;
-}
-
 function collectIds(arr){
 	return getTransformedArray(getFilteredArray(arr, filter), function(el){
 		return el.id;
